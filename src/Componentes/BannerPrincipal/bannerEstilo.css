@@ -1,0 +1,6 @@
+.banner {
+    height: 400px;
+    background-color: rgba(156, 31, 31, 0.655);
+    transition-duration: 2s;
+    transition: transform ease 3s ease-in-out;
+}

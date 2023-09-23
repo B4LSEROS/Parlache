@@ -7,8 +7,10 @@ function Header () {
   useEffect(() => {
       const handleScroll = () => {
           const position = window.pageYOffset;
-          if (position > 60) { //Si cambia el flexbox debajo del encabezado, ajuste la posición a la altura de este.
+          if (position > 30) { //Si cambia el flexbox debajo del encabezado, ajuste la posición a la altura de este.
               setScrolled(true);
+              
+
           }
           else {
               setScrolled(false);
@@ -23,6 +25,7 @@ function Header () {
     return(
         <div className= "main" style={{
           width: scrolled ? "20%" : "100%",
+          height: scrolled ? "500px" : "150px",
           position: scrolled ? "fixed" : "inherit",
           fontSize: scrolled ? "20px": "30px"}}>
             <h1>PARLACHE</h1>

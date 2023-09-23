@@ -1,6 +1,7 @@
 import React, {useState, useEffect} from 'react';
 import logo from './logo.svg';
 import Header from './Componentes/Header/Header';
+import BannerPrincipal from './Componentes/BannerPrincipal/BannerPrincipal';
 import './App.css';
 
 function App() {
@@ -8,6 +9,8 @@ function App() {
     
     <div className="App">
       <Header />
+      <BannerPrincipal />
+
 
       <div className='header'>
         <h1>PARLACHE</h1>
