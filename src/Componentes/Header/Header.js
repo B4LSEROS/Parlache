@@ -3,14 +3,14 @@ import './headerEstilo.css';
 
 function Header () {
   const [scrolled, setScrolled] = useState(false);
+  const [mostrarMenu, setMenu] = useState(false);
 
   useEffect(() => {
       const handleScroll = () => {
           const position = window.pageYOffset;
           if (position > 30) { //Si cambia el flexbox debajo del encabezado, ajuste la posición a la altura de este.
               setScrolled(true);
-              
-
+              setMenu(true);
           }
           else {
               setScrolled(false);
@@ -29,6 +29,12 @@ function Header () {
           position: scrolled ? "fixed" : "inherit",
           fontSize: scrolled ? "20px": "30px"}}>
             <h1>PARLACHE</h1>
+            {mostrarMenu && <div className='menu'>
+                <p>¿Qué es el Parlache?</p>
+                <p>Palabra del Día</p>
+                <p>Diccionario</p>
+                <p>Contáctanos</p>
+                </div>}
         </div>
     );
 }
