@@ -14,6 +14,7 @@ function App() {
 
       <div className='header'>
         <h1>PARLACHE</h1>
+        <h2>PARLACHE</h2>
       </div>
 
 
