@@ -14,6 +14,7 @@ function Header () {
           }
           else {
               setScrolled(false);
+              setMenu(false);
           }
       };
 
