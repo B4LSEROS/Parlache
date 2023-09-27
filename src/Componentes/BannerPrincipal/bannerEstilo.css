@@ -1,4 +1,5 @@
 .banner {
+    margin-top: 10%;
     height: 400px;
     background-color: rgba(156, 31, 31, 0.655);
     transition-duration: 2s;

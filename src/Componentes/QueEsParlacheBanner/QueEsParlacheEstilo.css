@@ -1,0 +1,12 @@
+@font-face {
+    font-family: 'Inter-Black';
+    src: url('/public/inter/Inter-ExtraLight.ttf');
+}
+
+.main-parlache {
+    height: 400px;
+    width: 80%;
+    margin-left: auto;
+    font-family: 'Inter-Black';
+    background-color: rgba(230, 154, 14, 0.574);
+}
