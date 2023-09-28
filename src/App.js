@@ -3,6 +3,7 @@ import logo from './logo.svg';
 import Header from './Componentes/Header/Header';
 import BannerPrincipal from './Componentes/BannerPrincipal/BannerPrincipal';
 import QueEsParlache from './Componentes/QueEsParlacheBanner/page';
+import PiePagina from './Componentes/PiePagina/PiePagina';
 import './App.css';
 
 function App() {
@@ -12,6 +13,7 @@ function App() {
       <Header />
       <BannerPrincipal />
       <QueEsParlache />
+    
 
 
       <div className='header'>
@@ -39,6 +41,7 @@ function App() {
           Learn React
         </a>
       </header>
+      <PiePagina />
     </div>
   );
 }
