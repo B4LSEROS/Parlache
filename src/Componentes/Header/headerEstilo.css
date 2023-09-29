@@ -4,5 +4,5 @@
     transition-duration: 1.5s;
     transition: transform ease 1.5s ease-in-out;
     word-break: break-word;  
-    border-radius: 3px;
+    border-radius: 4px;
   }

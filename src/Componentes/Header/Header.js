@@ -26,7 +26,7 @@ function Header () {
     return(
         <div className= "main" style={{
           width: scrolled ? "20%" : "100%",
-          height: scrolled ? "500px" : "150px",
+          height: scrolled ? "100vh" : "150px",
           position: scrolled ? "fixed" : "inherit",
           fontSize: scrolled ? "20px": "30px"}}>
             <h1>PARLACHE</h1>
