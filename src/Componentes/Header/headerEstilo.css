@@ -1,17 +1,30 @@
 @font-face {
-  font-family: 'Inter Thin';
-  src: url('/public/inter/Inter-Light.ttf') format('truetype');
+  font-family: 'Inter-Black';
+  src: url('/public/inter/Inter-ExtraLight.ttf');
 }
 
-
-
-
 .main {
-    font-family: 'Inter Thin';
+    display: flex;
+    flex-direction: column;
+    font-family: 'Inter-Black';
     font-weight: 900;
-    background-color: rgba(49, 2, 100, 0.59);
-    transition-duration: 1.5s;
-    transition: transform ease 1.5s ease-in-out;
+    background-color: white;
+    transition-duration: 0.4s;
+    transition: transform ease 2s ease-in-out;
     word-break: break-word;  
     border-radius: 4px;
+
+  }
+
+  .menu {
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+
+  }
+
+  .menu h3 {
+    padding: 4px;
+    border: 1px solid black;
+    border-radius: 10px;
   }
