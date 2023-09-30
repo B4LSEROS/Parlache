@@ -31,10 +31,11 @@ function Header () {
           fontSize: scrolled ? "20px": "30px"}}>
             <h1>PARLACHE</h1>
             {mostrarMenu && <div className='menu'>
-                <input type = 'button' value = 'Parlache'></input>
-                <h3>Palabra del Día</h3>
-                <h3>Diccionario</h3>
-                <h3>Contáctanos</h3>
+                <input type = 'button' value = '¿Qué es Parlache?'/>
+                <input type = 'button' value = 'Palabra del Día'/>
+                <input type = 'button' value = 'Diccionario'/>
+                <input type = 'button' value = 'Contáctanos'/>
+                <input type = 'button' value = 'Contribuye'/>
                 </div>}
         </div>
     );

@@ -3,28 +3,51 @@
   src: url('/public/inter/Inter-ExtraLight.ttf');
 }
 
+@font-face {
+  font-family: 'Inter-Regular';
+  src: url('/public/inter/Inter-Regular.ttf');
+}
+
 .main {
     display: flex;
     flex-direction: column;
     font-family: 'Inter-Black';
     font-weight: 900;
-    background-color: white;
+    background-color: #325343;
     transition-duration: 0.4s;
     transition: transform ease 2s ease-in-out;
     word-break: break-word;  
     border-radius: 4px;
+    color: white;
 
   }
 
   .menu {
+    
     display: flex;
     flex-direction: column;
     padding: 10px;
+    justify-content: center;
+    height: 100%;
 
   }
 
-  .menu h3 {
+  .menu input {
+    font-family: 'Inter-Regular';
+    font-size: 100%;
+    color: #325343;
+    flex-grow: 1;
+    background-color:white;
+    height: 10px;
+    margin-bottom: 10px;
     padding: 4px;
-    border: 1px solid black;
-    border-radius: 10px;
+    border: none;
+    border-radius: 30px;
   }
+
+  .menu input:hover {
+    color: white;
+    background-color: rgba(113, 197, 113, 0.778);
+    cursor: crosshair;
+  }
+
