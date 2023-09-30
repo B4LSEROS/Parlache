@@ -1,5 +1,14 @@
+@font-face {
+  font-family: 'Inter Thin';
+  src: url('/public/inter/Inter-Light.ttf') format('truetype');
+}
+
+
+
 
 .main {
+    font-family: 'Inter Thin';
+    font-weight: 900;
     background-color: rgba(49, 2, 100, 0.59);
     transition-duration: 1.5s;
     transition: transform ease 1.5s ease-in-out;

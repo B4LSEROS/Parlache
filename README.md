@@ -1,3 +1,31 @@
+# Parlache
+
+_Parlache_ is a rich combination of linguistic elements that form a unique dialect originating from the peripheral and marginalized cities of Colombia. This application serves as an academic, social, and anthropological tool to recognize the distinctiveness of this Colombian dialect.
+
+A web application that provides visibility to the Colombian _parlache_ dialect has as its main objective the promotion of this linguistic variety nationally and internationally, by collecting typical words, expressions, and phrases used by people who speak this dialect.
+
+#### This web application has the following functionalities:
+
+- A digital dictionary that allows searching for terms and expressions in _parlache_, with its corresponding definition and examples of use in context.
+
+- A generator of phrases and expressions in _parlache_, that allows users to learn new expressions and improve their understanding of the dialect.
+
+- A space for social interaction where users can share their own expressions and collaborate in the construction of the digital dictionary.
+
+In summary, a web application that provides visibility to the Colombian _parlache_ dialect would be a useful tool to disseminate and promote this linguistic variety, thus contributing to the appreciation and recognition of Colombian popular culture.
+
+# En Español
+
+Parceros, pa' ponerlo simple, el dialecto colombiano del parlache es una variedad lingüística que se desarollo en las calles y barrios populares de las zonas periféricas, y por ende, marginales de Medellín ——después se expandió a el resto de las ciudades (e.g., Cali, Bogotá) ¿Si sabe? Éste se caracteriza por la utilización de términos y expresiones coloquiales propios de la cultura popular. Estas expresiones se han ido transmitiendo de forma oral y se han ido adaptando y enriqueciendo con el paso del tiempo.
+
+Una aplicación web que brinde visibilidad al dialecto colombiano parlache tiene como objetivo principal difundir y promover esta variedad lingüística a nivel nacional e internacional, mediante la recopilación de vocablos, expresiones y frases típicas utilizadas por las personas que hablan este dialecto.
+
+#### Esta aplicación web cuenta con las siguientes funcionalidades:
+
+- Un diccionario digital que permita buscar los términos y expresiones en parlache, con su correspondiente definición y ejemplos de uso en contexto.
+
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).

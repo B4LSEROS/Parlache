@@ -1,0 +1,21 @@
+.contenedor-buscador {
+    height: 150px;
+    width: 70%;
+    background-color: white;
+    border-radius: 10px;
+    border-color: black;
+    border: 1px solid black;
+}
+
+.contenedor-busqueda {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+.campos {
+    height: 30px;
+    background-color: white;
+}
+
