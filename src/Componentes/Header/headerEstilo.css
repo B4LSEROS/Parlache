@@ -11,18 +11,16 @@
 .main {
     display: flex;
     flex-direction: column;
-    font-family: 'Inter-Black';
-    font-weight: 900;
+    font-family: 'Inter-Regular';
     background-color: #900C3F;
-    transition-duration: 0.4s;
-    transition: transform ease 2s ease-in-out;
+    transition-duration: 1.5s;
     word-break: break-word;  
-    border-radius: 5px;
     color: white;
-
+    z-index: -1;
   }
 
   .menu {
+    background-color: green;
     
     display: flex;
     flex-direction: column;
