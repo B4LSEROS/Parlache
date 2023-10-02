@@ -11,7 +11,7 @@ function Header () {
   useEffect(() => {
       const handleScroll = () => {
           const position = window.pageYOffset;
-          if (position > 35) { //Si cambia el flexbox debajo del encabezado, ajuste la posición a la altura de este.
+          if (position > 40) { //Si cambia el flexbox debajo del encabezado, ajuste la posición a la altura de este.
               setScrolled(true);
               setMenu(true);
           }
@@ -37,7 +37,7 @@ function Header () {
              </a>}
 
             {mostrarMenu && <div className='menu'>
-                <input type = 'button' value = '¿Qué es Parlache?'/>
+                <input classname= 'caja' type = 'button' value = '¿Qué es Parlache?'/>
                 <input type = 'button' value = 'Palabra del Día'/>
                 <input type = 'button' value = 'Diccionario'/>
                 <input type = 'button' value = 'Contáctanos'/>
