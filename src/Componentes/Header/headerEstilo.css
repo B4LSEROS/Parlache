@@ -1,45 +1,77 @@
-@font-face {
-  font-family: 'Inter-Black';
-  src: url('/public/inter/Inter-ExtraLight.ttf');
+@keyframes colorTitulo {
+  50% {
+    background-color: rgba(202, 40, 102, 0.8);
+  }
 }
 
-@font-face {
-  font-family: 'Inter-Regular';
-  src: url('/public/inter/Inter-Regular.ttf');
-}
-
-.main {
+.encabezado {
+    height: 100px;
     display: flex;
-    flex-direction: column;
-    font-family: 'Inter-Regular';
-    background-color: #900C3F;
-    transition-duration: 1.5s;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
     word-break: break-word;  
+    background-color: rgba(144, 19, 66, 0.8);
     color: white;
-    z-index: -1;
+    z-index: 1;
+    transition-duration: 2s ease-out;
+    transition: 0.3s;
   }
 
+  .encabezado-scrolled {
+    height: 100vh;
+    width: 20%;
+    display: flex;
+    flex-direction:column;
+    justify-content: center;
+    align-items: center;
+    position: fixed;
+    font-size: 20px;
+    transition: 1.5s;
+    transition-duration: 3.5s ease-in-out;
+    animation: colorTitulo 3s;
+  }
+
+  .encabezado-titulo {
+    margin: auto;
+  }
+
+  .icono-github {
+    margin-right: 15px;
+    height: 40px;
+    width: 40px;
+  }
+
+
+.button-1:hover,
+.button-1:focus {
+  background-color: #F082AC;
+}
+
   .menu {
-    background-color: green;
-    
+    box-sizing: border-box;
     display: flex;
     flex-direction: column;
-    padding: 10px;
     justify-content: center;
-    height: 100%;
-
+    align-items: center;
+    height: 80%;
+    width: 100%;
+    background-color: green;
   }
 
   .menu input {
-    font-family: 'Inter-Regular';
+
+
+
+
     font-size: 100%;
     color: #325343;
-    flex-grow: 1;
+    flex-grow: 2;
     background-color:white;
     height: 50px;
     width: 200px;
     margin-bottom: 10px;
-    padding: 4px;
+    padding: 30px;
     border: none;
     border-radius: 20px;
   }
@@ -50,4 +82,6 @@
     background-color: #d7125e;
     cursor: crosshair;
   }
+
+ 
 

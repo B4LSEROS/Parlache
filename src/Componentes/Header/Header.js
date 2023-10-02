@@ -1,14 +1,17 @@
 import React, {useState, useEffect} from 'react';
+import classNames from 'classnames';
 import './headerEstilo.css';
 
 function Header () {
   const [scrolled, setScrolled] = useState(false);
   const [mostrarMenu, setMenu] = useState(false);
+  const miClase = classNames('encabezado', {'encabezado-scrolled': scrolled});
+ 
 
   useEffect(() => {
       const handleScroll = () => {
           const position = window.pageYOffset;
-          if (position > 30) { //Si cambia el flexbox debajo del encabezado, ajuste la posición a la altura de este.
+          if (position > 35) { //Si cambia el flexbox debajo del encabezado, ajuste la posición a la altura de este.
               setScrolled(true);
               setMenu(true);
           }
@@ -24,18 +27,20 @@ function Header () {
       };
   }, []);
     return(
-        <div className= "main" style={{
-          width: scrolled ? "20%" : "100%",
-          height: scrolled ? "100vh" : "150px",
-          position: scrolled ? "fixed" : "inherit",
-          fontSize: scrolled ? "20px": "30px"}}>
-            <h1>PARLACHE</h1>
+        <div className= {miClase}>
+            <div className='encabezado-titulo'>
+                <h1>PARLACHE</h1>
+            </div>
+             
+             {!mostrarMenu && <a href='https://github.com/B4LSEROS/Parlache1'>
+             <img src='./iconos/github-mark-white.png' className='icono-github'></img>
+             </a>}
+
             {mostrarMenu && <div className='menu'>
                 <input type = 'button' value = '¿Qué es Parlache?'/>
                 <input type = 'button' value = 'Palabra del Día'/>
                 <input type = 'button' value = 'Diccionario'/>
                 <input type = 'button' value = 'Contáctanos'/>
-                <input type = 'button' value = 'Contribuye'/>
                 </div>}
         </div>
     );
