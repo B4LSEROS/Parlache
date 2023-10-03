@@ -1,3 +1,19 @@
+@font-face {
+  font-family: 'MonaSans-Bold';
+  src: url('/public/fuentes/MonaSans/MonaSans-Bold.woff2') format('woff2');
+  font-weight: 700;
+  font-width: 100;
+}
+
+@font-face {
+  font-family: 'MonaSans-Regular';
+  src: url('/public/fuentes/MonaSans/MonaSans-Regular.woff2') format('woff2');
+  font-weight: 400;
+  font-width: 100;
+}
+
+
+
 @keyframes colorTitulo {
   20% {
     background-color: rgba(144, 19, 66, 1);
@@ -5,6 +21,7 @@
 }
 
 .encabezado {
+    font-family: 'MonaSans-bold';
     height: 100px;
     display: flex;
     flex-direction: row;
@@ -24,7 +41,7 @@
     justify-content: center;
     align-items: center;
     position: fixed;
-    font-size: 20px;
+    font-size: 18px;
     transition: 1.5s;
     transition-duration: 3.5s ease;
     animation: colorTitulo 3s;
@@ -40,12 +57,6 @@
     width: 40px;
   }
 
-
-.button-1:hover,
-.button-1:focus {
-  background-color: #F082AC;
-}
-
   .menu {
     box-sizing: border-box;
     display: flex;
@@ -57,37 +68,24 @@
   }
 
   .menu input {
+    font-family: 'MonaSans-Regular';
     display: inline-block;
     padding: 20px 20px 30px;
     text-decoration: none;
-    transition: color 0.25s ease-in-out;
-    transform: translateZ(0);
     margin-bottom: 40px;
     width: 100%;
     box-sizing: border-box;
     height: 25%;
-    background-color: rebeccapurple;
     border: none;
     font-size: 100%;
     color: white;
+    background: linear-gradient(to top, white, white 50%, rgba(144, 19, 66, 0.1) 50%, rgba(144, 19, 66, 0.1)); 
+    background-size: 100% 200%;
+    transition: background-position 0.3s;
   }
 
+  .menu input:hover {
+    color: rgba(144, 19, 66, 0.8);
+    background-position: 0 -100%;
+  }
 
-
-.menu input :hover::after {
-  transform: scaleY(1)
-}
-
-.menu input::after {
-  content: "";
-  background-color: #fff;
-  width: 100%;
-  height: 100%;
-  position: absolute;
-  bottom: 0;
-  left: 0;
-  transform: scaleY(0);
-  transform-origin: 0 100%;
-  transition: all 0.25s ease-in-out;
-  z-index: -1
-}

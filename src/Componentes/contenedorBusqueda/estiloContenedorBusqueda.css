@@ -1,10 +1,31 @@
+@font-face {
+    font-family: 'MonaSans-Regular';
+    src: url('/public/fuentes/MonaSans/MonaSans-Regular.woff2') format('woff2');
+    font-weight: 400;
+    font-width: 100;
+  }
+
+  @font-face {
+    font-family: 'MonaSans-ExtraBold';
+    src: url('/public/fuentes/MonaSans/MonaSans-ExtraBold.woff2') format('woff2');
+    font-weight: 900;
+    font-width: 125;
+  }
+
 .contenedor-buscador {
-    height: 200px;
+    display: flex;
+    flex-direction: column;
+    height: 300px;
     width: 70%;
-    background-color: white;
+    background-color: red;
     border-radius: 10px;
-    border-color: black;
     border: 1px solid black;
+    margin-bottom: 10%;
+}
+
+.contenedor-buscador h1 {
+    font-size: 5px;
+    margin-left: 20px;
 }
 
 .contenedor-busqueda {
@@ -12,10 +33,12 @@
     flex-direction: row;
     align-items: center;
     justify-content: center;
+    border-radius: 10px;
+    background-color: green;
+    height: 70%;
 }
 
 .campos {
-    height: 30px;
-    background-color: white;
+    height: 50%;
 }
 

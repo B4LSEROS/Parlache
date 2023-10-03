@@ -5,7 +5,13 @@ import './QueEsParlacheEstilo.css';
 function QueEsParlache() {
     return(
         <div className= "main-parlache">
-            <p> El parlache es una jerga originaria de Colombia que nació en las áreas periféricas, y por ende marginadas, de Medellín. Con el tiempo ha transcendido estos contextos y se ha integrado al habla popular El parlache es una jerga o argot originario de Colombia, especialmente asociada con la ciudad de Medellín y su área metropolitana. Este dialecto urbano nació en contextos marginales y de ilegalidad, pero con el tiempo ha trascendido a otros estratos sociala.</p>
+            <h1>¿Qué más, parcero? ¿Bien o qué?</h1>
+
+            <div className= 'introduccion-parlache'>
+            <p> El parlache es una forma vernácula del español colombiano, originada principalmente en comunidades urbanas y populares. Este sociolecto se ha consolidado como un fenómeno lingüístico intrigante para sociolingüistas y antropólogos debido a su capacidad para codificar complejas realidades sociales, económicas y culturales.</p> 
+
+            <p>Parlache sirve como una herramienta académica, social y antropológica para estudiar, entender y promover este dialecto colombiano.</p>
+            </div>
             <ContenedorBusqueda />
         </div>
     );

@@ -3,13 +3,6 @@ import React from 'react';
 import './estiloContenedorBusqueda.css';
 
 const ContenedorBusqueda = () => {
-
-
-
-
-
-
-
     return(
         <div className = 'contenedor-buscador'>
             <p>Haga su consulta para conocer más sobre el parlache.</p>
@@ -21,10 +14,8 @@ const ContenedorBusqueda = () => {
                 </select>
                 <input 
                     type = 'text'
-                    placeholder = 'Su palabra aquí, parcero' className='campos'
-                        >
-
-                        </input>
+                    placeholder = 'Su palabra aquí, parcero' 
+                    className='campos'></input>
                 <input type = 'button' value = 'Buscar' className='campos'></input>
 
             </div>
