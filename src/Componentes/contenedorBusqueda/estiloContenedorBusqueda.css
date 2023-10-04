@@ -1,44 +1,64 @@
-@font-face {
-    font-family: 'MonaSans-Regular';
-    src: url('/public/fuentes/MonaSans/MonaSans-Regular.woff2') format('woff2');
-    font-weight: 400;
-    font-width: 100;
-  }
-
-  @font-face {
-    font-family: 'MonaSans-ExtraBold';
-    src: url('/public/fuentes/MonaSans/MonaSans-ExtraBold.woff2') format('woff2');
-    font-weight: 900;
-    font-width: 125;
-  }
-
 .contenedor-buscador {
     display: flex;
     flex-direction: column;
-    height: 50%;
-    width: 70%;
-    background-color: red;
-    border-radius: 10px;
-    border: 1px solid black;
+    width: 80%;
+    height: 100%;
+
+    font-family: 'MonaSans-Regular';
+    font-size: 22px;
+
+    box-sizing: border-box;
+    border: 0.1px solid black;
+    border-radius: 20px;
     margin-bottom: 10%;
 }
 
-.contenedor-buscador h1 {
-    font-size: 5px;
-    margin-left: 20px;
+.contenedor-buscador p {
+    font-size: 26px;
+
+    margin-top: 5%;
+    margin-right: 50%;
+    padding-left: 5%;
 }
 
 .contenedor-busqueda {
     display: flex;
     flex-direction: row;
-    align-items: center;
-    justify-content: center;
-    border-radius: 10px;
-    background-color: green;
     height: 70%;
+
+    border-radius: 10px;
 }
 
-.campos {
-    height: 50%;
+.contenedor-busqueda > .campos {
+    height: 30%;
+
+    font-family: 'MonaSans-Regular';
+    font-size: 26px;
+    
+    border: 0.1px solid black;
+    border-radius: 10px;
+    color: rgba(0, 0, 0, 0.756);
+    text-align: center;
+    margin-right: 10px;
+    margin-top: 5%;
+}
+
+.contenedor-busqueda > .campos:focus {
+    border: 0.1px solid rgb(144, 19, 67);
+}
+
+.contenedor-busqueda > .campos:nth-child(1) {
+    flex-grow: 3;
+    margin-left: 10px;
+
+}
+
+.contenedor-busqueda > .campos:nth-child(2) {
+    flex-grow: 2;
+}
+
+.contenedor-busqueda > .campos:nth-child(3) {
+    flex-grow: 1;
+    background-color: rgba(144, 19, 67, 0.548);
 }
 

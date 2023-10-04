@@ -1,3 +1,17 @@
+@font-face {
+  font-family: 'MonaSans-Regular';
+  src: url('/public/fuentes/MonaSans/MonaSans-Regular.woff2') format('woff2');
+  font-weight: 400;
+  font-width: 100;
+}
+
+@font-face {
+  font-family: 'MonaSans-ExtraBold';
+  src: url('/public/fuentes/MonaSans/MonaSans-ExtraBold.woff2') format('woff2');
+  font-weight: 900;
+  font-width: 125;
+}
+
 .App {
   display: flex;
   flex-direction: column;

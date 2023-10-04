@@ -6,7 +6,6 @@ const ContenedorBusqueda = () => {
     return(
         <div className = 'contenedor-buscador'>
             <p>Haga su consulta para conocer más sobre el parlache.</p>
-            <p>Consulta gracias al apoyo de la RAE, Universidad de Antioquia y Ministerio de cultura de Colombia</p>
             <div className = 'contenedor-busqueda'>
                 <select placeholder = 'Selectores' className='campos'>
                     <option>Aleatoria</option>
@@ -14,7 +13,7 @@ const ContenedorBusqueda = () => {
                 </select>
                 <input 
                     type = 'text'
-                    placeholder = 'Su palabra aquí, parcero' 
+                    placeholder = 'Su palabra aquí' 
                     className='campos'></input>
                 <input type = 'button' value = 'Buscar' className='campos'></input>
 
