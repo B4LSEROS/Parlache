@@ -1,5 +1,6 @@
 import React from 'react';
 import ContenedorBusqueda from '../contenedorBusqueda/ContenedorBusqueda';
+import ChatContenedor from '../chatContenedor/ChatContenedor';
 import './QueEsParlacheEstilo.css';
 
 function QueEsParlache() {
@@ -13,7 +14,8 @@ function QueEsParlache() {
             <p>Parlache sirve como una herramienta académica, social y antropológica para estudiar, entender y promover este dialecto colombiano.</p>
             </div>
             <ContenedorBusqueda />
-            
+            <ChatContenedor />
+
         </div>
     );
 }
