@@ -1,0 +1,54 @@
+* {
+    font-family: 'MonaSans-Regular';
+}
+
+
+.chat-contenedor-principal {
+    display: flex;
+    flex-direction: column;
+
+    height: 700px;
+    width: 70%;
+
+    border-radius: 30px;
+    margin-bottom: 50px;
+
+
+
+
+    
+    
+    background-color: tomato;
+}
+
+.chat-banner {
+    height: 15%;
+
+    border-top-right-radius: 30px;
+    border-top-left-radius: 30px;
+    background-color: green;
+
+}
+
+.chat-texto-contenedor {
+    height:70%;
+    background-color: white;
+}
+
+.contenedor-mensaje-usuario {
+    height: 10%;
+
+    border-radius: 10px;
+}
+
+.contenedor-mensaje-usuario::placeholder {
+    color: rgba(128, 128, 128, 0.516);
+    font-size: 18px;
+
+    padding-left: 20px;
+}
+
+.icono-enviar {
+    height: 10px;
+    width: 10px;
+}
