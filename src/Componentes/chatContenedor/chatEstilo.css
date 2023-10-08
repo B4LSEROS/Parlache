@@ -8,9 +8,7 @@
     box-sizing: border-box;
     background-color: #faefe0;
     line-height: 2;
-    margin: auto;
 }
-
 
 .chat-contenedor > p {
     font-family: 'MonaSans-Regular';

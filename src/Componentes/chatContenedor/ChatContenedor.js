@@ -1,4 +1,5 @@
 import React, {useState, useEffect} from 'react';
+import ScrollToBottom from 'react-scroll-to-bottom';
 import Chat from '../chat/Chat';
 import './chatEstilo.css';
 
