@@ -13,7 +13,8 @@ const Chat = () => {
     function manejarClick () {
         if (mensajeUsuario != '')
         {
-            return (console.log(mensajeUsuario));
+            console.log(mensajeUsuario);
+            return (<p>{mensajeUsuario}</p>);
         }
     }
 
@@ -26,7 +27,7 @@ const Chat = () => {
             <p>Habla con El Parcero</p>
         </div>
 
-        <input type='text' className='chat-texto-contenedor' onChange={(e) => getMensaje(e.target.value)}>
+        <input type='text' className='chat-texto-contenedor' onChange={manejarClick}>
         </input>
         
         <input type='text' 
