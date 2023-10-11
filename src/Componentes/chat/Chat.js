@@ -10,13 +10,18 @@ const Chat = () => {
         setMensajeUsuario(event.target.value);
     }
 
-    function manejarClick () {
-        if (mensajeUsuario != '')
-        {
-            console.log(mensajeUsuario);
-            return (<p>{mensajeUsuario}</p>);
+    const manejarClick = () => {
+        if (mensajeUsuario != '') {
+
+            
+            
+        }
+        else {
+            return (false);
         }
     }
+
+
 
 
 
@@ -27,7 +32,7 @@ const Chat = () => {
             <p>Habla con El Parcero</p>
         </div>
 
-        <input type='text' className='chat-texto-contenedor' onChange={manejarClick}>
+        <input type='text' className='chat-texto-contenedor' value={manejarClick && mensajeUsuario}>
         </input>
         
         <input type='text' 
@@ -35,7 +40,7 @@ const Chat = () => {
                className='contenedor-mensaje-usuario'
                onChange={getMensaje}>
         </input>
-        <img src='/iconos/send.svg' className='icono-enviar' alt="Icono para enviar mensaje." onClick={manejarClick}></img>
+        <img src='/iconos/send.svg' className='icono-enviar' alt="Icono para enviar mensaje."></img>
         
 
 

@@ -1,4 +1,5 @@
 import React, {useState, useEffect} from 'react';
+import { Link } from "react-router-dom";
 import classNames from 'classnames';
 import './headerEstilo.css';
 
@@ -27,6 +28,7 @@ function Header () {
       };
   }, []);
     return(
+        
         <div className= {miClase}>
             <div className='encabezado-titulo'>
                 <h1>PARLACHE</h1>
@@ -37,7 +39,7 @@ function Header () {
              </a>}
 
             {mostrarMenu && <div className='menu'>
-                <input classname= 'caja' type = 'button' value = '¿Qué es Parlache?'/>
+                <Link to={"parlachePage/parlache"}><input classname= 'caja' type = 'button' value = '¿Qué es Parlache?'/></Link>
                 <input type = 'button' value = 'Palabra del Día'/>
                 <input type = 'button' value = 'Diccionario'/>
                 <input type = 'button' value = 'Contáctanos'/>
