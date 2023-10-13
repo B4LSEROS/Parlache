@@ -38,9 +38,8 @@ function Header () {
              <img src='./iconos/github-mark-white.png' className='icono-github'></img>
              </a>}
 
-            //renderizado condicional
             {mostrarMenu && <div className='menu'> 
-                <Link to={"parlachePage/parlache"}><input classname= 'caja' type = 'button' value = '¿Qué es Parlache?'/></Link>
+                 <input classname= 'caja' type = 'button' value = '¿Qué es Parlache?'/>
                 <input type = 'button' value = 'Palabra del Día'/>
                 <input type = 'button' value = 'Diccionario'/>
                 <input type = 'button' value = 'Contáctanos'/>

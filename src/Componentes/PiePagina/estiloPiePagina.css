@@ -1,7 +1,28 @@
 .pie-pagina {
+    display: flex;
+    flex-direction: column;
+
+    color: white;
+
+
     margin-left: auto;
     width: 80%;
     height: 500px;
-    background-color: rgba(193, 35, 35, 0.646);
+    background-color: #900028;
 
+}
+
+.pie-banner {
+    display: flex;
+    flex-direction: row;
+
+    padding-left: 60px;
+
+
+    height: 20%;
+
+}
+
+.pie-banner > h1 {
+    margin: 20px;
 }
