@@ -10,9 +10,22 @@ function PiePagina() {
                 <h1>Nuestras Redes:</h1>
             </div>
             <hr style={{ color: 'yellow', border: '2px solid black' }} />
+            <div className="contenedor-info">
+                <div>
+                    <h2>¿Qué es Parlache?</h2>
+                </div>
+                <div>
+                    <ul>
+                    <li>Palabra del Día</li>
 
+                    </ul>
+                    
+                </div>
+                <div>
+                    <h2>Diccionario</h2>
+                </div>
+            </div>
 
-            <p>Hola, nuevo pie de pagina</p>
 
         </div>
     );

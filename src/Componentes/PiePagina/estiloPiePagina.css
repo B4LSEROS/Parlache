@@ -26,3 +26,14 @@
 .pie-banner > h1 {
     margin: 20px;
 }
+
+.contenedor-info {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+
+    padding-left: 50px;
+    padding-right: 50px;
+    height: 80%;
+    background-color: tomato;
+}
