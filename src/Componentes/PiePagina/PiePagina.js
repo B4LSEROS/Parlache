@@ -13,6 +13,9 @@ function PiePagina() {
             <div className="contenedor-info">
                 <div>
                     <h2>¿Qué es Parlache?</h2>
+                    <h3>Historia</h3>
+                    <h3>Etimología</h3>
+                    <h3>Impacto social y cultural</h3>
                 </div>
                 <div>
                     <ul>
@@ -23,6 +26,8 @@ function PiePagina() {
                 </div>
                 <div>
                     <h2>Diccionario</h2>
+                    <h3>a</h3>
+                    <h3>b</h3>
                 </div>
             </div>
 
