@@ -1,4 +1,9 @@
 .banner {
+    display: flex;
+    flex-direction: column;
+
+    background-color: red;
     transition-duration: 2s;
     transition: transform ease 3s ease-in-out;
+    margin-top: 30px;
 }

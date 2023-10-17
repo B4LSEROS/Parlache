@@ -26,7 +26,7 @@ function BannerPrincipal(){
     }, []);
 
     return(
-        <div className='banner' style={{width: anchoActual ? "80%" : "99%",
+        <div className='banner' style={{width: anchoActual ? "80%" : "90%",
         transform: anchoActual ? "translate(25%)" : "none",
         }}>
             <video controls autoPlay loop muted width="100%" height="100%">

@@ -31,6 +31,8 @@
     background-color: rgba(144, 19, 66, 0.8);
     color: white;
     z-index: 1;
+    border-radius: 0 0 20px 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
   }
 
   .encabezado-scrolled {
@@ -45,6 +47,7 @@
     transition: 1.5s;
     transition-duration: 3.5s ease;
     animation: colorTitulo 3s;
+    border-radius: 0 0 0 0;
   }
 
   .encabezado-titulo {

@@ -15,4 +15,5 @@
 .App {
   display: flex;
   flex-direction: column;
+  background-color: #F7F0E6;
 }
