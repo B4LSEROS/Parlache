@@ -1,5 +1,4 @@
 import React, {useState, useEffect} from 'react';
-import { Link } from "react-router-dom";
 import classNames from 'classnames';
 import './headerEstilo.css';
 
@@ -7,7 +6,6 @@ function Header () {
   const [scrolled, setScrolled] = useState(false);
   const [mostrarMenu, setMenu] = useState(false);
   const miClase = classNames('encabezado', {'encabezado-scrolled': scrolled});
- 
 
   useEffect(() => {
       const handleScroll = () => {

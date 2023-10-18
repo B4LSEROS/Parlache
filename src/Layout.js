@@ -10,9 +10,7 @@ const Layout = ({children}) => {
         {children}
         <PiePagina />
         </>
-    );
-
+    )
 }
-
 
 export default Layout;

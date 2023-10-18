@@ -26,7 +26,7 @@
 .main-parlache h1 {
     margin-top: 10%;
     font-family: 'MonaSans-ExtraBold';
-    font-size: 44px;
+    font-size: 22.44px;
 }
 
 .introduccion-parlache {
@@ -35,6 +35,6 @@
     box-sizing: border-box;
     margin: auto;
     width: 70%;
-    font-size: 24px;
+    font-size: 16px;
 }
 
