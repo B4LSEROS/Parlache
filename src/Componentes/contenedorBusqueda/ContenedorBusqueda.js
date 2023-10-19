@@ -5,7 +5,9 @@ import './estiloContenedorBusqueda.css';
 const ContenedorBusqueda = () => {
     return(
         <div className = 'contenedor-buscador'>
+            
             <p>Haga su consulta para conocer más sobre el parlache.</p>
+
             <div className = 'contenedor-busqueda'>
                 <select placeholder = 'Selectores' className='campos'>
                     <option>Aleatoria</option>
@@ -17,7 +19,6 @@ const ContenedorBusqueda = () => {
                     placeholder = 'Su palabra aquí' 
                     className='campos'></input>
                 <input type = 'button' value = 'Buscar' className='campos'></input>
-
             </div>
 
         </div>
