@@ -17,3 +17,8 @@
   flex-direction: column;
   background-color: #F7F0E6;
 }
+
+h1 {
+  font-family: 'MonaSans-Regular';
+  font-size: 26px;
+}

@@ -10,8 +10,9 @@
     line-height: 2;
 }
 
+
 .chat-contenedor > p {
     font-family: 'MonaSans-Regular';
-    font-size: 22px;
+    font-size: 18px;
     width: 70%;
 }
