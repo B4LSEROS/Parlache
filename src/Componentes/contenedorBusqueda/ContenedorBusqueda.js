@@ -33,7 +33,7 @@ const ContenedorBusqueda = () => {
 
             <div className = 'contenedor-busqueda'>
                 <select placeholder = 'Selectores' className='campos'>
-                    <option>Aleatoia</option>
+                    <option>Aleatoria</option>
                     <option>Contiene</option>
                     <option>Empieza por</option>
                 </select>
